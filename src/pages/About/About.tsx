@@ -23,10 +23,12 @@ const About: React.FC = () => {
             <div className="story__text">
               <h2>Our Story</h2>
               <p>
-                Chosen Girls was founded in 2020 with a simple yet powerful mission: to ensure that 
-                every girl has access to accurate, comprehensive health education, particularly around 
-                menstrual health. What started as a small local initiative has grown into a 
-                community-driven organization that has touched the lives of hundreds of girls and their families.
+                Chosen Girls is a heartfelt movement created to uplift, educate, and empower young women 
+                to know their worth and walk boldly in their God-given identity. 
+                It's a space where girls are reminded that they are loved, seen and chosen for purpose.
+                THrough honest conversations, faith and support, Chosen Girls helps every girl rise withconfidence, 
+                knowing she was wan never meant to blend in - she was born to stand out.  
+
               </p>
               <p>
                 We believe that knowledge is power, and that understanding one's body is fundamental 
@@ -56,13 +58,12 @@ const About: React.FC = () => {
               </div>
             </div>
             <div className="founder__text">
-              <h2>Meet Our Founder</h2>
-              <h3>Sarah Johnson</h3>
+              <h1>Meet Our Founder</h1>
+              <h2>Kamanga Mwele</h2>
               <p>
-                Sarah Johnson, a passionate educator and women's health advocate, founded Chosen Girls 
+                Kamanga Mwele, a passionate student and women's health advocate, founded Chosen Girls 
                 after witnessing the profound impact that lack of menstrual education had on girls in 
-                her community. With over 15 years of experience in health education and community 
-                development, Sarah recognized the urgent need for open, honest conversations about 
+                her community. Kamanga recognized the urgent need for open, honest conversations about 
                 women's health.
               </p>
               <p>
@@ -72,9 +73,9 @@ const About: React.FC = () => {
                 experience alone."
               </p>
               <p>
-                Sarah's vision extends beyond just education – she believes in creating lasting change 
+                Kamanga's vision extends beyond just education – she believes in creating lasting change 
                 through community engagement, family involvement, and sustainable programs that can be 
-                replicated in communities worldwide.
+                replicated in communities nationwide.
               </p>
             </div>
           </div>
@@ -88,7 +89,7 @@ const About: React.FC = () => {
           <div className="goals__grid">
             <div className="goal-card">
               <div className="goal-card__icon">🎯</div>
-              <h3>Education Access</h3>
+              <h2>Education Access</h2>
               <p>
                 Provide comprehensive, age-appropriate health education to girls in underserved 
                 communities, ensuring they have the knowledge they need to make informed decisions 
@@ -98,7 +99,7 @@ const About: React.FC = () => {
             
             <div className="goal-card">
               <div className="goal-card__icon">🤝</div>
-              <h3>Community Engagement</h3>
+              <h2>Community Engagement</h2>
               <p>
                 Work with families, schools, and community leaders to create supportive environments 
                 where girls feel safe discussing their health and asking questions.
@@ -107,7 +108,7 @@ const About: React.FC = () => {
             
             <div className="goal-card">
               <div className="goal-card__icon">📦</div>
-              <h3>Resource Distribution</h3>
+              <h2>Resource Distribution</h2>
               <p>
                 Ensure that girls have access to essential hygiene products and educational materials, 
                 removing barriers that prevent them from attending school or participating in daily activities.
@@ -115,10 +116,10 @@ const About: React.FC = () => {
             </div>
             
             <div className="goal-card">
-              <div className="goal-card__icon">🌍</div>
-              <h3>Global Impact</h3>
+              <div className="goal-card__icon">🇿🇦</div>
+              <h2>National Impact</h2>
               <p>
-                Expand our reach to serve more communities worldwide, sharing our successful programs 
+                Expand our reach to serve more communities nationwide, sharing our successful programs 
                 and methodologies with other organizations working toward similar goals.
               </p>
             </div>
@@ -132,7 +133,7 @@ const About: React.FC = () => {
           <h2 className="values__title">Our Values</h2>
           <div className="values__list">
             <div className="value-item">
-              <h3>Compassion</h3>
+              <h2>Compassion</h2>
               <p>
                 We approach every interaction with empathy and understanding, recognizing that each 
                 girl's journey is unique.
@@ -140,7 +141,7 @@ const About: React.FC = () => {
             </div>
             
             <div className="value-item">
-              <h3>Education</h3>
+              <h2>Education</h2>
               <p>
                 We believe in the power of knowledge and strive to provide accurate, comprehensive 
                 information in accessible ways.
@@ -148,7 +149,7 @@ const About: React.FC = () => {
             </div>
             
             <div className="value-item">
-              <h3>Inclusivity</h3>
+              <h2>Inclusivity</h2>
               <p>
                 We welcome girls from all backgrounds, cultures, and circumstances, ensuring our 
                 programs are accessible to everyone.
@@ -156,7 +157,7 @@ const About: React.FC = () => {
             </div>
             
             <div className="value-item">
-              <h3>Empowerment</h3>
+              <h2>Empowerment</h2>
               <p>
                 We focus on building confidence and self-esteem, helping girls recognize their 
                 strength and potential.
