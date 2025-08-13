@@ -40,7 +40,7 @@ const Home: React.FC = () => {
       <section className="mission">
         <div className="container">
           <div className="mission__content">
-            <h2 className="mission__title">Our Mission</h2>
+            <h1 className="mission__title">Our Mission</h1>
             <p className="mission__description">
               We believe every girl deserves access to comprehensive health education, 
               particularly around menstrual health. Our organization works to break down 
@@ -69,7 +69,7 @@ const Home: React.FC = () => {
       {/* Programs Section */}
       <section className="programs">
         <div className="container">
-          <h2 className="programs__title">What We Do</h2>
+          <h1 className="programs__title">What We Do</h1>
           <div className="programs__grid">
             <div className="program-card">
               <div className="program-card__icon">📚</div>
@@ -105,7 +105,7 @@ const Home: React.FC = () => {
       <section className="cta-section">
         <div className="container">
           <div className="cta-section__content">
-            <h2 className="cta-section__title">Join Us in Making a Difference</h2>
+            <h1 className="cta-section__title">Join Us in Making a Difference</h1>
             <p className="cta-section__description">
               Every girl deserves to understand her body and feel confident about her health. 
               Help us reach more girls and create lasting change in communities worldwide.
