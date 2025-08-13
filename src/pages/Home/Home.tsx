@@ -26,8 +26,28 @@ const Home: React.FC = () => {
                 </Link>
               </div>
             </div>
-            <div className="hero__image">
-              <div className="hero__placeholder">
+            <div className="hero__video">
+              <video 
+                className="hero__video-element"
+                autoPlay 
+                muted 
+                loop 
+                playsInline
+                poster="/placeholder-video-poster.png"
+                onError={(e) => {
+                  // Fallback to placeholder if video fails to load
+                  const target = e.target as HTMLVideoElement;
+                  target.style.display = 'none';
+                  const fallback = target.parentElement?.querySelector('.hero__fallback');
+                  if (fallback) {
+                    (fallback as HTMLElement).style.display = 'flex';
+                  }
+                }}
+              >
+                <source src="/hero-video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <div className="hero__fallback" style={{ display: 'none' }}>
                 <span>🌺</span>
                 <p>Empowering young minds</p>
               </div>

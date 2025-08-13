@@ -36,6 +36,27 @@ The website uses a soft, feminine color palette:
 - Node.js (version 14 or higher)
 - npm or yarn package manager
 
+### Video Assets Setup
+The hero section uses a video background. To add your video:
+
+1. **Replace the placeholder video file:**
+   - Replace `public/hero-video.mp4` with your actual MP4 file
+   - Recommended specifications:
+     - Format: MP4 with H.264 codec
+     - Resolution: 1280x720 or 1920x1080
+     - Duration: 10-30 seconds
+     - File size: Under 5MB for optimal loading
+
+2. **Add a poster image (optional):**
+   - Replace `public/placeholder-video-poster.jpg` with a poster image
+   - This image shows while the video is loading
+   - Recommended: JPG/PNG, 1280x720, under 500KB
+
+3. **Video optimization tips:**
+   - Use tools like HandBrake or FFmpeg to compress your video
+   - Consider creating multiple resolutions for different devices
+   - Test loading times on slower connections
+
 ### Installation
 
 1. **Clone the repository**
