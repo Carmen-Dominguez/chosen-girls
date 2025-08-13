@@ -74,8 +74,8 @@ const Home: React.FC = () => {
                 <div className="mission__stat-label">Girls Educated</div>
               </div>
               <div className="mission__stat">
-                <div className="mission__stat-number">25</div>
-                <div className="mission__stat-label">Communities Reached</div>
+                <div className="mission__stat-number">4</div>
+                <div className="mission__stat-label">Schools Reached</div>
               </div>
               <div className="mission__stat">
                 <div className="mission__stat-number">100%</div>
