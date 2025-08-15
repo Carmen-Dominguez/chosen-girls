@@ -38,10 +38,7 @@ const About: React.FC = () => {
               </p>
             </div>
             <div className="story__image">
-              <div className="story__placeholder">
-                <span>🌟</span>
-                <p>Our journey began with a simple dream</p>
-              </div>
+              <img src="/journey.jpeg" alt="Kamanga Mwele" />
             </div>
           </div>
         </div>
@@ -52,10 +49,7 @@ const About: React.FC = () => {
         <div className="container">
           <div className="founder__content">
             <div className="founder__image">
-              <div className="founder__placeholder">
-                <span>👩‍🏫</span>
-                <p>Meet our founder</p>
-              </div>
+                <img src="/founder.jpeg" alt="Kamanga Mwele" />
             </div>
             <div className="founder__text">
               <h1>Meet Our Founder</h1>
@@ -183,6 +177,9 @@ const About: React.FC = () => {
               </a>
               <a href="mailto:donate@chosengirls.org" className="btn btn-secondary">
                 Make a Donation
+              </a>
+              <a href="tel:+27602773531" className="btn btn-secondary">
+                Call Us
               </a>
             </div>
           </div>
