@@ -70,7 +70,7 @@ const Home: React.FC = () => {
             
             <div className="mission__stats">
               <div className="mission__stat">
-                <div className="mission__stat-number">500+</div>
+                <div className="mission__stat-number">200±</div>
                 <div className="mission__stat-label">Girls Educated</div>
               </div>
               <div className="mission__stat">
