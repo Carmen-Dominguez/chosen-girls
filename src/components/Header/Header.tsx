@@ -79,7 +79,7 @@ const Header: React.FC = () => {
           </nav>
 
           {/* Language Selector */}
-          <div className="header__language-selector hide-mobile">
+          {/* <div className="header__language-selector hide-mobile">
             <div className="language-dropdown">
               <button className="language-dropdown__toggle">
                 <span className="language-dropdown__flag">
@@ -106,7 +106,7 @@ const Header: React.FC = () => {
                 ))}
               </ul>
             </div>
-          </div>
+          </div> */}
 
           {/* Mobile Menu Button */}
           <button

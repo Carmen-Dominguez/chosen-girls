@@ -89,13 +89,13 @@ const Footer: React.FC = () => {
               </p>
             </div>
 
-            <div className="footer__links">
+            {/* <div className="footer__links">
               <a href="/privacy" className="footer__link">Privacy Policy</a>
               <span className="footer__separator">•</span>
               <a href="/terms" className="footer__link">Terms of Service</a>
               <span className="footer__separator">•</span>
               <a href="/contact" className="footer__link">Contact Us</a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
